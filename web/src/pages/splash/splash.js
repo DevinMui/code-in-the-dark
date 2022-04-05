@@ -16,7 +16,7 @@ function Splash() {
   const history = useHistory();
 
   useEffect(() => {
-    document.title = "Coding in the Dark | Test your CSS skills";
+    document.title = "Punchcode | Test your CSS skills";
     socket.on("error", (error) => {
       toast.error(error.error);
     });
@@ -75,7 +75,7 @@ function Splash() {
             marginBottom: "40px",
           }}
         >
-          Coding in the Dark
+          Punchcode
         </h1>
 
         <p style={{ textAlign: "center" }} id="splash-participant-selection">
@@ -91,13 +91,6 @@ function Splash() {
             onClick={() => setParticipantType("create")}
           >
             Create
-          </span>{" "}
-          |{" "}
-          <span
-            className={participantType === "spectate" && "active"}
-            onClick={() => setParticipantType("spectate")}
-          >
-            Spectate
           </span>{" "}
           a game
         </p>

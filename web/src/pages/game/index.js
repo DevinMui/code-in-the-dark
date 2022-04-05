@@ -39,16 +39,16 @@ function Game() {
   useEffect(() => {
     switch (game.phase) {
       case PHASE.WAITING:
-        document.title = "Coding in the Dark | Waiting...";
+        document.title = "Punchcode | Waiting...";
         break;
       case PHASE.PLAYING:
-        document.title = "Coding in the Dark | Battle!";
+        document.title = "Punchcode | Battle!";
         break;
       case PHASE.VOTING:
-        document.title = "Coding in the Dark | Vote for your favorite";
+        document.title = "Punchcode | Vote for your favorite";
         break;
       case PHASE.FINISHED:
-        document.title = "Coding in the Dark | Results";
+        document.title = "Punchcode | Results";
         break;
       default:
         break;

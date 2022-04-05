@@ -18,7 +18,7 @@ function Navbar() {
           alt="Logo"
           style={{ marginRight: "15px" }}
         />
-        Coding in the Dark
+        Punchcode
       </Link>
       <button
         className="navbar-toggler"
