@@ -1,0 +1,284 @@
+html,
+body {
+  height: 100%;
+  font-family: Poppins;
+  background: #000;
+  color: #fff;
+  font-family: Poppins;
+}
+
+#root {
+  height: 100%;
+  font-family: Poppins;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.splash-input {
+  appearance: none;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.splash-input.btn {
+  background: #38c846;
+  color: rgba(255, 255, 255, 0.95);
+  text-transform: capitalize;
+}
+
+.btn-green {
+  background: #38c846;
+  color: rgba(255, 255, 255, 0.95);
+  text-transform: capitalize;
+}
+
+.btn-green-unfilled {
+  border: 3px solid #38c846;
+  background: inherit;
+  color: #38c846;
+  text-transform: capitalize;
+}
+
+#splash-participant-selection > .active {
+  color: #38c846;
+}
+
+.website {
+  cursor: pointer;
+  width: 500px;
+  height: 350px;
+  background: #eee;
+}
+
+.frame-name {
+  font-weight: 500;
+}
+
+.frame-name span {
+  background: green;
+  padding: 8px 20px 8px 20px;
+  border-radius: 5px;
+}
+
+.frame-name > span > a {
+  color: white;
+  text-decoration: none;
+}
+
+.iframe {
+  background: #fff;
+  border: none;
+  overflow: hidden;
+}
+
+.small-frame-container {
+  padding: 0;
+  overflow: hidden;
+}
+
+.small-frame {
+  /* transform: scale(0.5); */
+  /* transform-origin: top left; */
+}
+
+.full-frame {
+  width: 100%;
+  height: 80%;
+}
+
+.badge-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #c6ff8c;
+  color: #000;
+}
+
+.badge-button.badge-full-frame {
+  top: 80%;
+  right: 0;
+}
+
+.badge-button.badge-small-frame {
+  top: 275px;
+  left: 475px;
+}
+
+.badge-ready {
+  height: 25px;
+  width: 25px;
+  background: #47cb64;
+  border-radius: 50%;
+}
+
+.badge-ready.badge-small-frame {
+  top: 287px;
+  left: 500px;
+}
+
+.badge-unready {
+  height: 25px;
+  width: 25px;
+  background: #ff4343;
+  border-radius: 50%;
+}
+
+.badge-unready.badge-small-frame {
+  top: 287px;
+  left: 500px;
+}
+
+.badge-voting {
+  cursor: pointer;
+}
+
+.smallTitle {
+  margin-top: 0;
+  padding-top: 0px;
+  text-align: left;
+}
+
+.header {
+  padding-top: 200px;
+  padding-bottom: 20 px;
+  font-weight: bold;
+}
+
+.input {
+  color: #838383;
+  text-align: center;
+  padding: 8px 90px;
+}
+
+.button {
+  background-color: #49b738; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 151px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.chat {
+  background: #2d2d2d;
+  height: 100vh;
+  width: 311px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.chat-header {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.chat-form {
+  display: flex;
+  height: 3rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+}
+
+.chat-input {
+  border: none;
+  padding: 0 1rem;
+  width: 311px;
+  /* width: 100%; */
+}
+.chat-messages {
+  list-style-type: none;
+  margin-left: -109px;
+  margin-top: 50px;
+
+  word-wrap: break-word;
+  max-height: 85vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.emoji-picker-button {
+  cursor: pointer;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.8rem;
+}
+
+.chat-names {
+  color: grey;
+  font-size: 10px;
+}
+
+.incoming-message {
+  padding: 0.5rem 1rem;
+  background-color: rgb(173, 255, 153);
+  color: black;
+  margin-top: 20px;
+  width: 250px;
+}
+.outgoing-message {
+  padding: 0.5rem 1rem;
+  background-color: rgb(253, 231, 255);
+  color: black;
+  margin-top: 20px;
+  width: 250px;
+  margin-left: 46px;
+}
+
+.chat-input:focus {
+  outline: none;
+}
+
+.splash {
+  text-align: center;
+}
+
+#opponent-code span {
+  background: green;
+  color: green;
+}
+
+.waiting-player-card {
+  border-radius: 4px;
+  text-align: center;
+  padding: 75px;
+}
+
+.waiting-player-card .ready {
+  position: absolute;
+  font-size: 12px;
+  bottom: 10px;
+  right: 30px;
+}
+
+.ready-up {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  right: 50%;
+}
